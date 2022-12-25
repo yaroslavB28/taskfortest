@@ -1,0 +1,95 @@
+form {
+  margin-top: 50px;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.main-form {
+  font-family: 'Rubik';
+}
+
+.main-form_title {
+  max-width: 680px;
+  
+  h3 {
+    font-size: 28px;
+    font-weight: 900 !important;
+    line-height: 33px;
+  }
+}
+
+#textField {
+  max-width: 780px;
+  min-height: 220px;
+  background-color: #4A4C4E;
+  color: #fff;
+  margin-bottom: 40px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+
+  label {
+    display: flex;
+    align-items: center;  
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21px;
+    margin-bottom: 15px;
+  }
+
+  .option-text {
+    margin-left: 12px;
+    padding-bottom: 15px;
+  }
+}
+
+.submitBtn_wrapper {
+  display: flex;
+  justify-content: end;  
+  margin-top: 56px;
+
+  .submitBtn {
+    width: 280px;
+    height: 52px;
+    border-radius: 6px;
+    border-color: #F8E81C;
+    border-width: 4px;
+    background-color: #0c1422;
+    color: #F8E81C;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 26px;
+  }
+}
+
+.custom-radio-button {
+  width: 25px;
+  height: 25px;
+  border: 2px solid #50E3C2;
+  margin-left: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .checkmark {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #50E3C2;
+    border-radius: 50%;
+    display: none;
+  }
+
+  input {
+    display: none;
+  }
+  input:checked + .checkmark {
+    display: inline-block;
+  }
+  // input:checked + .option-text {
+  //   color:#50E3C2; didn't work
+  // }
+}

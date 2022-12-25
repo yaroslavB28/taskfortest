@@ -1,0 +1,18 @@
+@import 'footer', 'header', 'form';
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c1422;
+  color: #fff;
+  font-family: 'Rubik', serif;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+}
+
+.progress-bar {
+  margin-bottom: 50px;
+}

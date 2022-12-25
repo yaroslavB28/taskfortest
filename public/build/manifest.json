@@ -1,0 +1,32 @@
+{
+  "resources/scss/footer.scss": {
+    "file": "assets/footer-00dd1a6e.css",
+    "src": "resources/scss/footer.scss",
+    "isEntry": true
+  },
+  "resources/scss/main.scss": {
+    "file": "assets/main-575b9236.css",
+    "src": "resources/scss/main.scss",
+    "isEntry": true
+  },
+  "resources/scss/form.scss": {
+    "file": "assets/form-6dffcace.css",
+    "src": "resources/scss/form.scss",
+    "isEntry": true
+  },
+  "resources/scss/header.scss": {
+    "file": "assets/header-acf4d5ae.css",
+    "src": "resources/scss/header.scss",
+    "isEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app-4ed993c7.js",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-b0a4c440.js",
+    "src": "resources/js/app.js",
+    "isEntry": true
+  }
+}
